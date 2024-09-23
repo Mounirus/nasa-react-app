@@ -1,9 +1,9 @@
 const Main = () => {
   return (
-    <div>
-      main
+    <div className="imgContainer">
+      <img src="mars.png" alt="Mars image" className="bgImage" />
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
