@@ -2,7 +2,7 @@ const SideBar = ({handleToggleModal,data}) => {
   return (
     <div className="sidebar">
       <div onClick={handleToggleModal} className="bgOverlay"></div>
-      <div className="sidebarContent">
+      <div className="sidebarContents">
         <h2>{data?.title}</h2>
         <div>
           <p>Description</p>
