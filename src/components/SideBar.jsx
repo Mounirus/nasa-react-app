@@ -4,8 +4,8 @@ const SideBar = ({handleToggleModal,data}) => {
       <div onClick={handleToggleModal} className="bgOverlay"></div>
       <div className="sidebarContents">
         <h2>{data?.title}</h2>
-        <div>
-          <p>Description</p>
+        <div className="descriptionContainer">
+          <p className="descriptionTitle">Description</p>
           <p>
           {data?.explanation}
           </p>
